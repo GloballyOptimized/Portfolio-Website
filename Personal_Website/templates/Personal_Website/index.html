@@ -1,0 +1,632 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Globally Optimized</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'Personal_Website/css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'Personal_Website/css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'Personal_Website/css/main.css' %}">
+
+    <!-- script
+    ================================================== -->
+    <script src="{% static 'Personal_Website/js/modernizr.js' %}"></script>
+    <script src="{% static 'Personal_Website/js/pace.min.js' %}"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img style="width: 350px; height: 420px; padding-top: 40px;" src="{% static 'Personal_Website/images/logo.png' %}" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Contact</a></li>	
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hii, I'm Ayush Suryawanshi</h3>
+                <h1>
+                    Backend Developer <br>
+                    and Software Geek <br>
+                    I craft code for your needs.
+                </h1>
+            </div>
+
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                        I'm a passionate software engineer with a knack for tackling challenges and crafting elegant solutions
+                        though being proficiant with the backend side of things I wont shy away from a good frontend challenge , 
+                        with over 2 years of working in the industry I bring the balance of enthusiasm and experience . 
+                    </p>
+
+                    <p>
+                        My work goes beyond writing code. I take pride in understanding the problem at hand and translating it into efficient, scalable solutions.
+                        Whether it's streamlining data collection for a logistics company or automating tasks for increased productivity,
+                        I thrive on developing applications that deliver tangible results.
+                    </p>
+
+                    <p>
+                        I honed my skills through a blend of professional experience and personal projects.
+                        At SDE I and Phoenix Solutions, I spearheaded projects utilizing Django and Bootstrap to build revenue-generating applications and internal automation tools.
+                        I also possess expertise in data analysis using libraries like Pandas and Numpy, having demonstrably saved clients time and money through insightful dashboards.
+                    </p>
+
+                    <p>
+                        I believe in continuous learning and staying ahead of the curve.
+                        I actively participate in online courses and challenges like LeetCode to refine my problem-solving skills and explore new technologies
+                        like Generative AI. This dedication ensures I bring the most up-to-date knowledge and best practices to every project I undertake.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="https://www.linkedin.com/in/ayush-suryawanshi-4b7290206/" class="btn btn--stroke full-width">Hire Me</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="" class="btn btn--primary full-width">Download CV</a>
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2022 - July 2024</p>
+                                <h3 class="item-title">Pheonix Solutions</h3>
+                                <h5>SDE 1</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>I built revenue-generating Django applications (Compliance Tracker, $175k increase) and data-driven dashboards (Driver Data Dashboard) for MetroTMS. 
+                                I also volunteered to create a document scraper (Python, Django) that boosted efficiency by 95%. My skills extend to building internal 
+                                automation tools (Bubble.io) and client websites (Django & Bootstrap). Additionally, I implemented algorithmic trading solutions for clients.</p>
+                            </div>
+                        </div>
+
+            
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">January 2019 - June 2022</p>
+                                <h3 class="item-title">Gujarat Technological University</h3>
+                                <h5>Bachelor of Engineering</h5>
+                                <div class="timeline__desc">
+                                    <p>
+                                    College was a transformative experience. Interacting with diverse individuals from across India broadened my
+                                    perspective and shaped my thinking. The freedom to explore new ideas and concepts fostered a spirit of 
+                                    innovation and adaptability.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">August 2016 - May 2019</p>
+                                <h3 class="item-title">Central Institute of Petrochemicals Engineering & Technology</h3>
+                                <h5>Diploma</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>My college years exposed me to the realities of manufacturing in a competitive market. I honed operational and 
+                                    people management skills. This formative period shaped my character and provided opportunities for personal 
+                                    growth and experimentation.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">January 2022 - June 2022</p>
+                                <h3 class="item-title">KPMG India</h3>
+                                <h5>Analyst (Intern)</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>At KPMG, I developed a full-stack integration (Bootstrap, Django) for KSAM, slashing data remodeling time by 90%. I also built Python scripts for sentiment analysis
+                                    (Textblob, Pandas), saving the team 2 hours daily. Additionally, I conducted data analysis ($7.6M assets, 150k rows)
+                                    using Python libraries (NumPy, Pandas) and PowerBI, preventing $200k in contract violations for a client.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services ss-dark target-section">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
+
+                <p class="section-desc">
+                    My passion and goal is to help you make your business standout.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Backend Development</h4>
+                    <p>
+                        I'm a backend developer specializing in Django and with experience in Golang. I've worked 
+                        extensively with PostgreSQL, MySQL, and MongoDB databases. My API development expertise includes
+                        proficiency in FastAPI and Django Rest Framework.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Automation</h4>
+                    <p>
+                        I'm proficient in automating tasks using Python, Selenium, Beautiful Soup (bs4), and Celery. This combination
+                        allows me to efficiently build robust and high-performance automation solutions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Analytics</h4>
+                    <p>
+                        I leverage Python's data manipulation capabilities (Pandas, NumPy, Seaborn) to extract actionable insights.
+                        My expertise lies in crafting efficient analytical programs that handle large datasets, striking a balance 
+                        between accuracy and speed.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">System Design</h4>
+                    <p>
+                        I have a strong foundation in designing highly scalable applications. I've independently developed and deployed
+                        systems on AWS EC2 instances, gaining hands-on experience in modern system architecture.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Frontend Development</h4>
+                    <p>
+                        I have a strong foundation in frontend development, utilizing Bootstrap for efficient design and HTML5, CSS3 
+                        for granular customization. I stay updated with the latest libraries and trends to ensure my skills remain 
+                        relevant in the dynamic web development landscape.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Supply Chain Management</h4>
+                    <p>
+                        My academic background includes MIT courses in Supply Chain Design, Technology, and Analytics, providing a strong 
+                        foundation in the field. I continuously expand my knowledge through in-depth research on contemporary 
+                        supply chain strategies and best practices.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- CTA
+    ================================================== -->
+    <section class="s-cta ss-dark">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-desc">
+                    Need a reliable Backend Developer ?
+                </h2>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row cta-content" data-aos="fade-up">
+            <div class="column large-full">
+                <p>
+                You don't need to look beyong <a>Ayush Suryawanshi</a>.
+                If you still aren't convienced scroll down to look at my range of work  ELSE. 
+                </p>
+
+                <a href="https://www.linkedin.com/in/ayush-suryawanshi-4b7290206/" class="btn full-width">Hire Now</a>
+            </div>
+        </div> <!-- end ad-content -->
+
+    </section> <!-- end s-cta -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are few of the Web Applications check them out for a better experience.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'Personal_Website/images/portfolio/gallery/g-city-building.jpg' %}" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="{% static 'Personal_Website/images/portfolio/city-building.jpg' %}" 
+                                     srcset="images/portfolio/city-building.jpg 1x, images/portfolio/city-building@2x.jpg 2x" alt="">
+                            </a>    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                City Building
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'Personal_Website/images/portfolio/gallery/g-woodcraft.jpg' %}" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="{% static 'Personal_Website/images/portfolio/woodcraft.jpg' %}" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Woodcraft
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'Personal_Website/images/portfolio/gallery/g-beetle.jpg' %}" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="{% static 'Personal_Website/images/portfolio/the-beetle.jpg' %}"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                The Beetle
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'Personal_Website/images/portfolio/gallery/g-shutterbug.jpg' %}" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="{% static 'Personal_Website/images/portfolio/shutterbug.jpg' %}" 
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Shutterbug
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'Personal_Website/images/portfolio/gallery/g-lamp.jpg' %}" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="{% static 'Personal_Website/images/portfolio/lamp.jpg' %}" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Lamp
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'Personal_Website/images/portfolio/gallery/g-fuji.jpg' %}" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="{% static 'Personal_Website/images/portfolio/fuji.jpg' %}"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Fuji
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-work -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a  style="font-size: 60px;" href="mailto:suryawanshiayush007@gmail.com">suryawanshiayush007@gmail.com</a>
+                </p>
+
+                <p class="section-desc">
+                I am always look forward to form new connections and exchange ideas , please feel free to connect ! 
+                 
+                <a href="mailto:suryawanshiayush007@gmail.com">Email Me</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Call Me</h4>
+                <a href="tel:+917000580565">+91 7000580565</a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="https://github.com/GloballyOptimized" title="Github">Github</a></li>
+                    <li><a href="https://x.com/a_lone_coder" title="Twitter">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/ayush-suryawanshi-4b7290206/" title="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Globally Optimized 2024</span> 
+                <span>Design by <a href="https://github.com/GloballyOptimized/">Ayush Suryawanshi</a></span>
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'Personal_Website/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'Personal_Website/js/plugins.js' %}"></script>
+    <script src="{% static 'Personal_Website/js/main.js' %}"></script>
+
+</body>
